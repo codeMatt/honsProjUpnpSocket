@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UpnpSocketApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="name_string">Enter Device Name</string>
+    <string name="register_button">register</string>
+    <string name="refresh_string">refresh</string>
+    <string name="get_file_many">get files</string>
+    <string name="log_string">Application Log:\n---------------------------------------------------</string>
+    
+</resources>
