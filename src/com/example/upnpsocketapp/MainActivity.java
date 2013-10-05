@@ -96,10 +96,10 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		
 		//bind upnp service to device
-		System.out.println("calling the bindservice");
+		System.out.println("starting bindservice");
 		getApplicationContext().bindService(new Intent
 				(this, AndroidUpnpServiceImpl.class), serviceConnection, Context.BIND_AUTO_CREATE);
-		System.out.println("finished the bindservice");
+		System.out.println("completed bindservice");
 		
 		//set up instance variables
 		context = this;
